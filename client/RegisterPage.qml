@@ -2,6 +2,8 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Controls.Material
+import httpmgr
+import global
 /******************************************************************************
  *
  * @file       RegisterPage.qml
@@ -14,9 +16,24 @@ Rectangle{
     id: registerPage
     width: 280
     height: 350
-    signal switchLogin
-
     color: "#f5f5f5"
+    property var _handlers: new Map()
+    signal switchLogin
+    Connections {
+        target: HttpMgr
+        function onSig_reg_mod_finish(id, res, err) {
+            console.log("id is ", id)
+            console.log("res is ", res)
+            console.log("err is ", err)
+            if(err !== Global.SUCCESS) {
+                console.log("网络请求错误")
+                return
+            }
+
+            _handlers[id](res)
+        }
+    }
+
 
 
     Column {
@@ -182,5 +199,29 @@ Rectangle{
                 onClicked: registerPage.switchLogin()
             }
         }
+    }
+
+    Component.onCompleted: {
+        initHttpHandlers()
+    }
+    function initHttpHandlers() {
+        _handlers.set(Global.ID_GET_VARIFY_CODE, (res)=>{
+            let jsonObj;
+            try {
+                // 尝试解析 JSON
+                jsonObj = JSON.parse(res);
+            } catch (e) {
+                // 如果解析失败，打印错误信息并返回
+                console.error("JSON 解析失败:", e.message);
+                return;
+            }
+            const error = Number(jsonObj["error"])
+            if(error != Global.SUCCESS){
+                console.log("网络请求错误")
+                return
+            }
+            const email = String(jsonObj["email"])
+            console.log("email is ", email)
+        });
     }
 }

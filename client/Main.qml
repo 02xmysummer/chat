@@ -1,5 +1,5 @@
-import QtQuick 2.15
-import QtQuick.Controls 2.15
+import QtQuick
+import QtQuick.Controls
 
 FramelessWindow {
     id: window
@@ -23,9 +23,9 @@ FramelessWindow {
             }
 
             function onLogin() {
-                loader.source = "MainWindowPage.qml"
-                UserMgr.UpdateFriendList()
-                ChatMgr.UpdateChatList()
+                loader.source = "MainWindow.qml"
+                // UserMgr.UpdateFriendList()
+                // ChatMgr.UpdateChatList()
             }
         }
         onLoaded: {
@@ -38,7 +38,7 @@ FramelessWindow {
                 window.maxBntShow = false
                 window.width = loader.item.width
                 window.height = loader.item.height + 30
-            } else if(sourcePath.includes("MainWindowPage.qml")) {
+            } else if(sourcePath.includes("MainWindow.qml")) {
                 window.is_resize = true
                 window.minBntShow = true
                 window.maxBntShow = true
