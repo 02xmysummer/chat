@@ -21,6 +21,11 @@ qt_add_qml_module(appchat
         RESOURCES rc.qrc
         QML_FILES FramelessWindow.qml
         SOURCES framelesswindow.h framelesswindow.cpp
+        QML_FILES RoundImage.qml
+        QML_FILES LoginPage.qml
+        QML_FILES RegisterPage.qml
+        QML_FILES XTextInput.qml
+        QML_FILES ForgetPasswordPage.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
