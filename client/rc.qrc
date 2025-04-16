@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/pinTop.png</file>
+        <file>src/active-pinTop.png</file>
+        <file>src/logo.png</file>
+    </qresource>
+</RCC>
