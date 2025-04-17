@@ -42,5 +42,6 @@ target_link_libraries(app PRIVATE
     protobuf::libprotoc    
     # 显式链接Protobuf目标
     jsoncpp
+    hiredis
 )
 
