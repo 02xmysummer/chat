@@ -18,6 +18,8 @@ add_executable(app ${SRC})
 # 包含目录配置
 target_include_directories(app PRIVATE
     ${Boost_INCLUDE_DIRS}
+    ${JSONCPP_INCLUDE_DIRS}
+
 )
 
 # 链接库配置
@@ -26,4 +28,5 @@ target_link_libraries(app PRIVATE
     Boost::system  
     Boost::filesystem
     Boost::thread
+    jsoncpp
 )
