@@ -17,3 +17,5 @@ enum ErrorCodes {
     Error_Json = 1001,  //Json解析错误
     RPCFailed = 1002,  //RPC请求错误
 };
+class ConfigMgr;
+extern ConfigMgr gCfgMgr;
