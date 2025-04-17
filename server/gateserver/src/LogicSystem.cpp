@@ -1,6 +1,6 @@
 #include "LogicSystem.h"
 #include "HttpConnection.h"
-#include "VarifyGrpcClient.h"
+#include "VerifyGrpcClient.h"
 LogicSystem::LogicSystem() {
     RegGet("/get_test", [](std::shared_ptr<HttpConnection> connection) {
         beast::ostream(connection->_response.body()) << "receive get_test req " << std::endl;
