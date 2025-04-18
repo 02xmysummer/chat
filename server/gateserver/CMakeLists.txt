@@ -7,6 +7,7 @@ set(BOOST_ROOT /usr)
 
 # 添加头文件路径（项目自定义头文件）
 include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(/usr/include/cppconn) # 注意这里的版本号可能需要根据你的安装进行调整
 
 # 辅助函数收集源文件（注意潜在风险，建议手动指定源文件）
 aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC)
@@ -18,6 +19,7 @@ find_package(Boost REQUIRED COMPONENTS system filesystem thread)
 
 # 设置JSONCPP包含目录（建议改用find_package）
 find_package(jsoncpp REQUIRED)                   # 更规范的查找方式
+link_directories(/usr/lib/x86_64-linux-gnu) # 这里的路径也可能需要根据你的系统架构和MySQL版本进行调整
 
 
 # 添加可执行文件
@@ -43,5 +45,6 @@ target_link_libraries(app PRIVATE
     # 显式链接Protobuf目标
     jsoncpp
     hiredis
+    mysqlcppconn
 )
 
