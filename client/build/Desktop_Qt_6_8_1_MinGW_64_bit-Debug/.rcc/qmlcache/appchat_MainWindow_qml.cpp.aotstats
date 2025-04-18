@@ -1,0 +1,12 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                ],
+                "filepath": "D:/code/github/chat/client/MainWindow.qml"
+            }
+        ],
+        "moduleId": "chat(appchat)"
+    }
+]

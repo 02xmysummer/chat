@@ -1,0 +1,138 @@
+{
+    "classes": [
+        {
+            "className": "HttpMgr",
+            "lineNumber": 21,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "map",
+                            "type": "QVariantMap"
+                        },
+                        {
+                            "name": "req_id",
+                            "type": "Global::ReqId"
+                        },
+                        {
+                            "name": "mod",
+                            "type": "Global::Modules"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "PostHttpReq",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "HttpMgr",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "Global::ReqId"
+                        },
+                        {
+                            "name": "res",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "err",
+                            "type": "Global::ErrorCodes"
+                        },
+                        {
+                            "name": "mod",
+                            "type": "Global::Modules"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "sig_http_finish",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "Global::ReqId"
+                        },
+                        {
+                            "name": "res",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "err",
+                            "type": "Global::ErrorCodes"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "sig_reg_mod_finish",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "Global::ReqId"
+                        },
+                        {
+                            "name": "res",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "err",
+                            "type": "Global::ErrorCodes"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "sig_reset_mod_finish",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "Global::ReqId"
+                        },
+                        {
+                            "name": "res",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "err",
+                            "type": "Global::ErrorCodes"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "sig_login_mod_finish",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "Singleton<HttpMgr>"
+                },
+                {
+                    "access": "public",
+                    "name": "std::enable_shared_from_this<HttpMgr>"
+                }
+            ]
+        }
+    ],
+    "inputFile": "httpmgr.h",
+    "outputRevision": 68
+}

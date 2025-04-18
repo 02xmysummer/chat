@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 346,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "Cannot access value for name maskRect",
+                        "functionName": "maskSource",
+                        "line": 18
+                    }
+                ],
+                "filepath": "D:/code/github/chat/client/RoundImage.qml"
+            }
+        ],
+        "moduleId": "chat(appchat)"
+    }
+]

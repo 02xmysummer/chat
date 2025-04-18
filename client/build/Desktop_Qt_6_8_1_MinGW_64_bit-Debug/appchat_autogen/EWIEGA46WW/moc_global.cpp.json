@@ -1,0 +1,74 @@
+{
+    "classes": [
+        {
+            "className": "Global",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ReqId",
+                    "values": [
+                        "ID_GET_VARIFY_CODE",
+                        "ID_REG_USER",
+                        "ID_RESET_PWD",
+                        "ID_LOGIN_USER",
+                        "ID_CHAT_LOGIN",
+                        "ID_CHAT_LOGIN_RSP",
+                        "ID_SEARCH_USER_REQ",
+                        "ID_SEARCH_USER_RSP",
+                        "ID_ADD_FRIEND_REQ",
+                        "ID_ADD_FRIEND_RSP",
+                        "ID_NOTIFY_ADD_FRIEND_REQ",
+                        "ID_AUTH_FRIEND_REQ",
+                        "ID_AUTH_FRIEND_RSP",
+                        "ID_NOTIFY_AUTH_FRIEND_REQ",
+                        "ID_TEXT_CHAT_MSG_REQ",
+                        "ID_TEXT_CHAT_MSG_RSP",
+                        "ID_NOTIFY_TEXT_CHAT_MSG_REQ"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "ErrorCodes",
+                    "values": [
+                        "SUCCESS",
+                        "ERR_JSON",
+                        "ERR_NETWORK"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Modules",
+                    "values": [
+                        "REGISTERMOD",
+                        "RESETMOD",
+                        "LOGINMOD"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "DataType",
+                    "values": [
+                        "Text",
+                        "Image",
+                        "File"
+                    ]
+                }
+            ],
+            "lineNumber": 13,
+            "object": true,
+            "qualifiedClassName": "Global",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "global.h",
+    "outputRevision": 68
+}

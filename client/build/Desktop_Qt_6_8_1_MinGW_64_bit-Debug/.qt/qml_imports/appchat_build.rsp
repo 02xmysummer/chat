@@ -1,0 +1,14 @@
+-rootPath
+D:/code/github/chat/client
+-cmake-output
+-output-file
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/qml_imports/appchat_build.cmake
+-importPath
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/chat
+-importPath
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug
+-importPath
+D:/software/qt/6.8.1/mingw_64/qml
+-qrcFiles
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/qmake_chat.qrc
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appchat_raw_qml_0.qrc

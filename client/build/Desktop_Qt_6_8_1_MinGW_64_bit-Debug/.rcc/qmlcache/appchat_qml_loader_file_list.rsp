@@ -1,0 +1,12 @@
+--resource
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/qmake_chat.qrc
+--resource
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appchat_raw_qml_0.qrc
+/qt/qml/chat/Main.qml
+/qt/qml/chat/FramelessWindow.qml
+/qt/qml/chat/RoundImage.qml
+/qt/qml/chat/LoginPage.qml
+/qt/qml/chat/RegisterPage.qml
+/qt/qml/chat/XTextInput.qml
+/qt/qml/chat/ForgetPasswordPage.qml
+/qt/qml/chat/MainWindow.qml

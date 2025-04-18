@@ -1,0 +1,10 @@
+-I
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug
+-I
+D:/software/qt/6.8.1/mingw_64/qml
+--resource
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/qmake_chat.qrc
+--resource
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appchat_raw_qml_0.qrc
+--module
+chat
