@@ -7,7 +7,7 @@
 void TestRedis() {
 	//连接redis 需要启动才可以进行连接
 //redis默认监听端口为6387 可以再配置文件中修改
-	redisContext* c = redisConnect("47.109.76.15", 6380);
+	redisContext* c = redisConnect("47.109.76.15", 6379);
 	if (c->err)
 	{
 		printf("Connect to redisServer faile:%s\n", c->errstr);
