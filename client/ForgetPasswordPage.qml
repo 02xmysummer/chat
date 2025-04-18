@@ -2,13 +2,32 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Controls.Material
-
+import httpmgr
+import global
 Rectangle {
     id: forgetPasswordPage
     width: 280
     height: 350
     color: "#f5f5f5"
+    property var _handlers: new Map()
+
     signal switchLogin
+
+    Connections {
+        target: HttpMgr
+        function onSig_reset_mod_finish(id, res, err) {
+            console.log("id is ", id)
+            console.log("res is ", res)
+            console.log("err is ", err)
+            if(err !== Global.SUCCESS) {
+                console.log("网络请求错误")
+                return
+            }
+
+            _handlers.get(id)(res)
+
+        }
+    }
 
     Column {
         anchors.fill: parent
@@ -176,5 +195,49 @@ Rectangle {
                 onClicked: forgetPasswordPage.switchLogin()
             }
         }
+    }
+    Component.onCompleted: {
+        initHttpHandlers()
+    }
+    function initHttpHandlers() {
+        //获取验证码回调
+        _handlers.set(Global.ID_GET_VARIFY_CODE, (res)=>{
+            let jsonObj;
+            try {
+            // 尝试解析 JSON
+                jsonObj = JSON.parse(res);
+            } catch (e) {
+                // 如果解析失败，打印错误信息并返回
+                console.error("JSON 解析失败:", e.message);
+                return;
+            }
+            const error = Number(jsonObj["error"])
+            if(error != Global.SUCCESS){
+                console.log("网络请求错误")
+                return
+            }
+            const email = String(jsonObj["email"])
+            console.log("验证码已发送到邮箱，注意查收")
+            console.log("email is ", email)
+        })
+        //重置密码回调
+        _handlers.set(Global.ID_RESET_PWD, (res)=>{
+            let jsonObj;
+            try {
+            // 尝试解析 JSON
+                jsonObj = JSON.parse(res);
+            } catch (e) {
+                // 如果解析失败，打印错误信息并返回
+                console.error("JSON 解析失败:", e.message);
+                return;
+            }
+            const email = jsonObj["email"]
+            const uuid = jsonObj["uid"]
+
+            console.log("重置成功,点击返回登录")
+            console.log("email is ", email)
+            console.log("user uuid is ", uuid)
+            forgetPasswordPage.switchLogin()
+        })
     }
 }

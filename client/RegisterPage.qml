@@ -30,7 +30,8 @@ Rectangle{
                 return
             }
 
-            _handlers[id](res)
+            _handlers.get(id)(res)
+
         }
     }
 
@@ -179,7 +180,21 @@ Rectangle{
                 font.pixelSize: 16
             }
             onClicked: {
+                let jsonObj = {
+                    "user": usernameInput.text,
+                    "email": emailInput.text,
+                    "passwd": passwordInput.text,
+                    "confirm": confirmPasswordInput.text,
+                    "varifycode":codeInput.text
+                }
+
+                HttpMgr.PostHttpReq("http://192.168.56.101:8080/user_register",
+                                    jsonObj,
+                                    Global.ID_REG_USER,
+                                    Global.REGISTERMOD
+                                    )
                 console.log("register")
+
             }
         }
 
@@ -205,6 +220,7 @@ Rectangle{
         initHttpHandlers()
     }
     function initHttpHandlers() {
+        //获取验证码回调
         _handlers.set(Global.ID_GET_VARIFY_CODE, (res)=>{
             let jsonObj;
             try {
@@ -221,7 +237,33 @@ Rectangle{
                 return
             }
             const email = String(jsonObj["email"])
+            console.log("验证码已发送到邮箱，注意查收")
             console.log("email is ", email)
-        });
+        })
+
+        //注册时回调
+        _handlers.set(Global.ID_REG_USER, (res)=>{
+            let jsonObj;
+            try {
+                // 尝试解析 JSON
+                jsonObj = JSON.parse(res);
+            } catch (e) {
+                // 如果解析失败，打印错误信息并返回
+                console.error("JSON 解析失败:", e.message);
+                return;
+            }
+            const error = Number(jsonObj["error"])
+            if(error != Global.SUCCESS){
+                console.log("网络请求错误")
+                return
+            }
+            const email = String(jsonObj["email"])
+            const uid =Number(jsonObj["uid"])
+
+            console.log("用户注册成功!")
+            console.log("email is ", email)
+            console.log("user uuid is ", uid)
+            registerPage.switchLogin()
+        })
     }
 }

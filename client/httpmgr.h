@@ -44,6 +44,10 @@ private:
 signals:
     void sig_http_finish(Global::ReqId id, QString res, Global::ErrorCodes err, Global::Modules mod);
     void sig_reg_mod_finish(Global::ReqId id, QString res, Global::ErrorCodes err);
+    void sig_reset_mod_finish(Global::ReqId id, QString res, Global::ErrorCodes err);
+    void sig_login_mod_finish(Global::ReqId id, QString res, Global::ErrorCodes err);
+
+
 };
 
 #endif // HTTPMGR_H

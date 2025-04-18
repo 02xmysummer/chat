@@ -61,6 +61,13 @@ void HttpMgr::slot_http_finish(Global::ReqId id,
         emit sig_reg_mod_finish(id, res, err);
     }
 
+    if (mod == Global::Modules::RESETMOD) {
+        //发送信号通知指定模块http响应结束
+        emit sig_reset_mod_finish(id, res, err);
+    }
+    if(mod == Global::Modules::LOGINMOD){
+        emit sig_login_mod_finish(id, res, err);
+    }
 }
 
 
