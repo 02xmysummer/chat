@@ -5,7 +5,7 @@ project(chat VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTORCC ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Quick)
+find_package(Qt6 REQUIRED COMPONENTS Quick Network)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
@@ -21,6 +21,15 @@ qt_add_qml_module(appchat
         RESOURCES rc.qrc
         QML_FILES FramelessWindow.qml
         SOURCES framelesswindow.h framelesswindow.cpp
+        QML_FILES RoundImage.qml
+        QML_FILES LoginPage.qml
+        QML_FILES RegisterPage.qml
+        QML_FILES XTextInput.qml
+        QML_FILES ForgetPasswordPage.qml
+        SOURCES singleton.h
+        SOURCES httpmgr.h httpmgr.cpp
+        QML_FILES MainWindow.qml
+        SOURCES global.h
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -36,6 +45,7 @@ set_target_properties(appchat PROPERTIES
 
 target_link_libraries(appchat
     PRIVATE Qt6::Quick
+        Qt6::Network
 )
 
 include(GNUInstallDirs)

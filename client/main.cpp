@@ -2,14 +2,27 @@
 #include <QQmlApplicationEngine>
 #include "framelesswindow.h"
 #include <QIcon>
+#include "httpmgr.h"
+#include "global.h"
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
     app.setWindowIcon(QIcon(":/src/logo.png"));
-    qmlRegisterType<FramelessWindow>("FramelessWindow", 1, 0, "FramelessWindow");
+    qmlRegisterType<Global>("global", 1, 0, "Global");
 
+    qmlRegisterType<FramelessWindow>("FramelessWindow", 1, 0, "FramelessWindow");
+    // 注册HttpMgr单例到QML环境
+    qmlRegisterSingletonType<HttpMgr>("httpmgr",
+                                      1,
+                                      0,
+                                      "HttpMgr",
+                                      [](QQmlEngine *engine, QJSEngine *scriptEngine) -> QObject * {
+                                          Q_UNUSED(engine)
+                                          Q_UNUSED(scriptEngine)
+                                          return HttpMgr::GetInstance().get(); // 返回HttpMgr单例实例
+                                      });
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
