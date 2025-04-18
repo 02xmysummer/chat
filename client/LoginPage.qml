@@ -1,7 +1,8 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Controls.Material
-
+import httpmgr
+import global
 /******************************************************************************
  *
  * @file       LoginPage.qml
@@ -19,6 +20,23 @@ Rectangle {
     signal switchRegister()
     signal switchForgetPassword()
     signal login()
+    property var _handlers: new Map
+
+    Connections {
+        target: HttpMgr
+        function onSig_login_mod_finish(id, res, err) {
+            console.log("id is ", id)
+            console.log("res is ", res)
+            console.log("err is ", err)
+            if(err !== Global.SUCCESS) {
+                console.log("网络请求错误")
+                return
+            }
+
+            _handlers.get(id)(res)
+
+        }
+    }
 
     Column {
         anchors.fill: parent
@@ -83,9 +101,12 @@ Rectangle {
             }
 
             onClicked: {
-                console.log("email : " ,emailInput.text)
-                console.log("password : " ,passwordInput.text)
-                login()
+                const json_obj = {
+                    "email": emailInput.text,
+                    "passwd": passwordInput.text
+                }
+
+                HttpMgr.PostHttpReq("http://192.168.56.101:8080/user_login", json_obj, Global.ID_LOGIN_USER, Global.LOGINMOD)
             }
         }
 
@@ -141,7 +162,29 @@ Rectangle {
             }
         }
     }
-
-
+    Component.onCompleted: {
+        initHttpHandlers()
+    }
+    function initHttpHandlers() {
+        _handlers.set(Global.ID_LOGIN_USER, (res)=>{
+            let jsonObj;
+            try {
+                // 尝试解析 JSON
+                jsonObj = JSON.parse(res);
+            } catch (e) {
+                // 如果解析失败，打印错误信息并返回
+                console.error("JSON 解析失败:", e.message);
+                return;
+            }
+            const error = Number(jsonObj["error"])
+            if(error != Global.SUCCESS){
+                console.log("网络请求错误")
+                return
+            }
+            const email = String(jsonObj["email"])
+            console.log("登录成功")
+            console.log("email is ", email)
+        })
+    }
 
 }

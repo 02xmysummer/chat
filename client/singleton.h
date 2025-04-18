@@ -29,7 +29,7 @@ public:
         std::cout << "this is singleton destruct" << std::endl;
     }
 protected:
-    Singleton();
+    Singleton() = default;
     Singleton(const Singleton<T>&) = delete;
     Singleton& operator=(const Singleton<T>&) = delete;
     static std::shared_ptr<T> _instance;
