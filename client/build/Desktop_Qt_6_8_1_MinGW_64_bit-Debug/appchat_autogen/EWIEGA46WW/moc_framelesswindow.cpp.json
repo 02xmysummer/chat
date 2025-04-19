@@ -1,0 +1,96 @@
+{
+    "classes": [
+        {
+            "className": "FramelessWindow",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "MousePosition",
+                    "values": [
+                        "TOPLEFT",
+                        "TOP",
+                        "TOPRIGHT",
+                        "LEFT",
+                        "RIGHT",
+                        "BOTTOMLEFT",
+                        "BOTTOM",
+                        "BOTTOMRIGHT",
+                        "NORMAL"
+                    ]
+                }
+            ],
+            "lineNumber": 14,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "is_top",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "setWindowFlag",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "mouse_pos",
+                    "notify": "mouse_posChanged",
+                    "read": "getMouse_pos",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "MousePosition",
+                    "user": false,
+                    "write": "setMouse_pos"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "is_resize",
+                    "notify": "is_resizeChanged",
+                    "read": "getIs_resize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setIs_resize"
+                }
+            ],
+            "qualifiedClassName": "FramelessWindow",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "mouse_posChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "is_resizeChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickWindow"
+                }
+            ]
+        }
+    ],
+    "inputFile": "framelesswindow.h",
+    "outputRevision": 68
+}

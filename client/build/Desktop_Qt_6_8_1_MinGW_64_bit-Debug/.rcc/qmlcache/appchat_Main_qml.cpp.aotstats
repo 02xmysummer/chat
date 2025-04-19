@@ -1,0 +1,60 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 424,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onLoaded",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 260,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "",
+                        "functionName": "onSwitchRegister",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 135,
+                        "errorMessage": "",
+                        "functionName": "onSwitchLogin",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "",
+                        "functionName": "onSwitchForgetPassword",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 122,
+                        "errorMessage": "",
+                        "functionName": "onLogin",
+                        "line": 25
+                    }
+                ],
+                "filepath": "D:/code/github/chat/client/Main.qml"
+            }
+        ],
+        "moduleId": "chat(appchat)"
+    }
+]

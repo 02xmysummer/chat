@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/chat">D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/chat</file>
+
+  </qresource>
+</RCC>

@@ -30,6 +30,10 @@ qt_add_qml_module(appchat
         SOURCES httpmgr.h httpmgr.cpp
         QML_FILES MainWindow.qml
         SOURCES global.h
+<<<<<<< HEAD
+=======
+        SOURCES tcpmgr.h tcpmgr.cpp
+>>>>>>> feature/login-register
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -3,6 +3,10 @@ import QtQuick.Controls
 import QtQuick.Controls.Material
 import httpmgr
 import global
+<<<<<<< HEAD
+=======
+import tcpmgr
+>>>>>>> feature/login-register
 /******************************************************************************
  *
  * @file       LoginPage.qml
@@ -20,8 +24,15 @@ Rectangle {
     signal switchRegister()
     signal switchForgetPassword()
     signal login()
+<<<<<<< HEAD
     property var _handlers: new Map
 
+=======
+    signal sig_connect_tcp(var obj)
+    property var _handlers: new Map
+    property string _uid
+    property string _token
+>>>>>>> feature/login-register
     Connections {
         target: HttpMgr
         function onSig_login_mod_finish(id, res, err) {
@@ -37,6 +48,31 @@ Rectangle {
 
         }
     }
+<<<<<<< HEAD
+=======
+    Connections {
+        target: TcpMgr
+        function onSig_con_success(ok) {
+            if(ok) {
+                console.log("聊天服务连接成功，正在登录...")
+                const jsonObj = {
+                    "uid": _uid,
+                    "token": _token
+                }
+                const jsonStr = String(jsonObj)
+                TcpMgr.sig_send_data(Global.ID_CHAT_LOGIN, jsonStr)
+            } else {
+                console.log("网络异常")
+            }
+        }
+    }
+
+    onSig_connect_tcp: (obj)=>{
+        const s = JSON.stringify(obj)
+        console.log(s)
+        TcpMgr.slot_tcp_connect(s)
+    }
+>>>>>>> feature/login-register
 
     Column {
         anchors.fill: parent
@@ -181,9 +217,28 @@ Rectangle {
                 console.log("网络请求错误")
                 return
             }
+<<<<<<< HEAD
             const email = String(jsonObj["email"])
             console.log("登录成功")
             console.log("email is ", email)
+=======
+            let email = jsonObj["email"];
+            const server = {
+                "host": String(jsonObj["host"]),
+                "port": String(jsonObj["port"]),
+                "token": String(jsonObj["token"]),
+                "uid": Number(jsonObj["uid"]),
+            }
+            _uid = server.uid
+            _token = server.token
+            console.log("email is ", email,
+                        "uid is ", server.uid,
+                        "host is ", server.host,
+                        "port is ", server.port,
+                        "token is ", server.token)
+
+            loginPage.sig_connect_tcp((server))
+>>>>>>> feature/login-register
         })
     }
 

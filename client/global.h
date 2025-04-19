@@ -67,6 +67,12 @@ public:
         QString Port;
         QString Token;
         int Uid;
+<<<<<<< HEAD
+=======
+        ServerInfo(QString host, QString port, QString token, int uid) :
+            Host(host), Port(port), Token(token), Uid(uid){}
+        ServerInfo() = default;
+>>>>>>> feature/login-register
     };
 
 

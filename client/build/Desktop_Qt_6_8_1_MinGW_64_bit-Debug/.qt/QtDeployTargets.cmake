@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_appchat_FILE D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat.exe)
+set(__QT_DEPLOY_TARGET_appchat_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_appchat_RUNTIME_DLLS D:/software/qt/6.8.1/mingw_64/bin/Qt6Quick.dll;D:/software/qt/6.8.1/mingw_64/bin/Qt6QmlMeta.dll;D:/software/qt/6.8.1/mingw_64/bin/Qt6QmlWorkerScript.dll;D:/software/qt/6.8.1/mingw_64/bin/Qt6QmlModels.dll;D:/software/qt/6.8.1/mingw_64/bin/Qt6Qml.dll;D:/software/qt/6.8.1/mingw_64/bin/Qt6Network.dll;D:/software/qt/6.8.1/mingw_64/bin/Qt6OpenGL.dll;D:/software/qt/6.8.1/mingw_64/bin/Qt6Gui.dll;D:/software/qt/6.8.1/mingw_64/bin/Qt6Core.dll)

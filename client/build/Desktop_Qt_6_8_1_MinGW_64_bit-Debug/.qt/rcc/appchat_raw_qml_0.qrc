@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/qt/qml/chat/">
+    <file alias="Main.qml">D:/code/github/chat/client/Main.qml</file>
+    <file alias="FramelessWindow.qml">D:/code/github/chat/client/FramelessWindow.qml</file>
+    <file alias="RoundImage.qml">D:/code/github/chat/client/RoundImage.qml</file>
+    <file alias="LoginPage.qml">D:/code/github/chat/client/LoginPage.qml</file>
+    <file alias="RegisterPage.qml">D:/code/github/chat/client/RegisterPage.qml</file>
+    <file alias="XTextInput.qml">D:/code/github/chat/client/XTextInput.qml</file>
+    <file alias="ForgetPasswordPage.qml">D:/code/github/chat/client/ForgetPasswordPage.qml</file>
+    <file alias="MainWindow.qml">D:/code/github/chat/client/MainWindow.qml</file>
+    <file alias="rc.qrc">D:/code/github/chat/client/rc.qrc</file>
+  </qresource>
+</RCC>
+

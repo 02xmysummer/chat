@@ -1,0 +1,17 @@
+--bare
+-I
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug
+-I
+D:/software/qt/6.8.1/mingw_64/qml
+--resource
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/qmake_chat.qrc
+--resource
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appchat_raw_qml_0.qrc
+D:/code/github/chat/client/Main.qml
+D:/code/github/chat/client/FramelessWindow.qml
+D:/code/github/chat/client/RoundImage.qml
+D:/code/github/chat/client/LoginPage.qml
+D:/code/github/chat/client/RegisterPage.qml
+D:/code/github/chat/client/XTextInput.qml
+D:/code/github/chat/client/ForgetPasswordPage.qml
+D:/code/github/chat/client/MainWindow.qml

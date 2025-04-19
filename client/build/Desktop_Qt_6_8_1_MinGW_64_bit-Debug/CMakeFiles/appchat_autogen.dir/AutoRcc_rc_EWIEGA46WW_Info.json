@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_autogen",
+	"CMAKE_BINARY_DIR" : "D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/code/github/chat/client",
+	"CMAKE_SOURCE_DIR" : "D:/code/github/chat/client",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/code/github/chat/client/src/pinTop.png",
+		"D:/code/github/chat/client/src/logo.png",
+		"D:/code/github/chat/client/src/active-pinTop.png",
+		"D:/code/github/chat/client/src/avatar.jpg"
+	],
+	"LOCK_FILE" : "D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/appchat_autogen.dir/AutoRcc_rc_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "rc" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_rc.cpp",
+	"RCC_EXECUTABLE" : "D:/software/qt/6.8.1/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/appchat_autogen.dir/AutoRcc_rc_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/code/github/chat/client/rc.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

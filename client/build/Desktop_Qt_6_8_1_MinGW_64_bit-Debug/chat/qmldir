@@ -1,0 +1,12 @@
+module chat
+typeinfo appchat.qmltypes
+prefer :/qt/qml/chat/
+Main 1.0 Main.qml
+FramelessWindow 1.0 FramelessWindow.qml
+RoundImage 1.0 RoundImage.qml
+LoginPage 1.0 LoginPage.qml
+RegisterPage 1.0 RegisterPage.qml
+XTextInput 1.0 XTextInput.qml
+ForgetPasswordPage 1.0 ForgetPasswordPage.qml
+MainWindow 1.0 MainWindow.qml
+
