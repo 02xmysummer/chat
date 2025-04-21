@@ -797,6 +797,12 @@
 			"MU",
 			"EWIEGA46WW/moc_tcpmgr.cpp",
 			null
+		],
+		[
+			"D:/code/github/chat/client/usermgr.h",
+			"MU",
+			"EWIEGA46WW/moc_usermgr.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -905,7 +911,8 @@
 		[ "D:/code/github/chat/client/framelesswindow.cpp", "MU", null ],
 		[ "D:/code/github/chat/client/httpmgr.cpp", "MU", null ],
 		[ "D:/code/github/chat/client/main.cpp", "MU", null ],
-		[ "D:/code/github/chat/client/tcpmgr.cpp", "MU", null ]
+		[ "D:/code/github/chat/client/tcpmgr.cpp", "MU", null ],
+		[ "D:/code/github/chat/client/usermgr.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

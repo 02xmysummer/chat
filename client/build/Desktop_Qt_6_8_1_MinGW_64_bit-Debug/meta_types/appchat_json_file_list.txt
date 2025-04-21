@@ -2,3 +2,4 @@ D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_aut
 D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_autogen/include/../EWIEGA46WW/moc_global.cpp.json
 D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_autogen/include/../EWIEGA46WW/moc_httpmgr.cpp.json
 D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_autogen/include/../EWIEGA46WW/moc_tcpmgr.cpp.json
+D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_autogen/include/../EWIEGA46WW/moc_usermgr.cpp.json

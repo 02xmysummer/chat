@@ -1,4 +1,4 @@
-set(qml_import_scanner_imports_count 32)
+set(qml_import_scanner_imports_count 33)
 set(qml_import_scanner_import_0 "CLASSNAME;QtQuick2Plugin;LINKTARGET;Qt6::qtquick2plugin;NAME;QtQuick;PATH;D:/software/qt/6.8.1/mingw_64/qml/QtQuick;PLUGIN;qtquick2plugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/;RELATIVEPATH;QtQuick;TYPE;module;")
 set(qml_import_scanner_import_1 "CLASSNAME;QtQmlPlugin;LINKTARGET;Qt6::qmlplugin;NAME;QtQml;PATH;D:/software/qt/6.8.1/mingw_64/qml/QtQml;PLUGIN;qmlplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/;RELATIVEPATH;QtQml;TYPE;module;")
 set(qml_import_scanner_import_2 "NAME;QML;PATH;D:/software/qt/6.8.1/mingw_64/qml/QML;PREFER;:/qt-project.org/imports/QML/;RELATIVEPATH;QML;TYPE;module;")
@@ -31,4 +31,5 @@ set(qml_import_scanner_import_28 "CLASSNAME;QtQuickControls2BasicStyleImplPlugin
 set(qml_import_scanner_import_29 "NAME;httpmgr;TYPE;module;")
 set(qml_import_scanner_import_30 "NAME;global;TYPE;module;")
 set(qml_import_scanner_import_31 "NAME;FramelessWindow;TYPE;module;")
+set(qml_import_scanner_import_32 "NAME;tcpmgr;TYPE;module;")
 

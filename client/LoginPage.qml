@@ -22,6 +22,7 @@ Rectangle {
     signal switchForgetPassword()
     signal login()
     signal sig_connect_tcp(var obj)
+    signal slot_login_failed(var err)
     property var _handlers: new Map
     property string _uid
     property string _token
@@ -55,12 +56,20 @@ Rectangle {
                 console.log("网络异常")
             }
         }
+
+        function onSig_login_failed(err) {
+            slot_login_failed(err);
+        }
     }
 
     onSig_connect_tcp: (obj)=>{
         const s = JSON.stringify(obj)
         console.log(s)
         TcpMgr.slot_tcp_connect(s)
+    }
+
+    onSlot_login_failed: (err)=>{
+        console.log("登录失败")
     }
 
     Column {

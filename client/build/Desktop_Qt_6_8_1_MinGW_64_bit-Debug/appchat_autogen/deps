@@ -16,6 +16,8 @@ appchat_autogen/timestamp: \
 	D:/code/github/chat/client/singleton.h \
 	D:/code/github/chat/client/tcpmgr.cpp \
 	D:/code/github/chat/client/tcpmgr.h \
+	D:/code/github/chat/client/usermgr.cpp \
+	D:/code/github/chat/client/usermgr.h \
 	D:/software/qt/6.8.1/mingw_64/include/QtCore/QEvent \
 	D:/software/qt/6.8.1/mingw_64/include/QtCore/QFlags \
 	D:/software/qt/6.8.1/mingw_64/include/QtCore/QJsonDocument \

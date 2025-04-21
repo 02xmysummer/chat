@@ -3,3 +3,4 @@
 #include "EWIEGA46WW/moc_global.cpp"
 #include "EWIEGA46WW/moc_httpmgr.cpp"
 #include "EWIEGA46WW/moc_tcpmgr.cpp"
+#include "EWIEGA46WW/moc_usermgr.cpp"

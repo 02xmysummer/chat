@@ -3,7 +3,7 @@
 #include <QDataStream>
 #include <QJsonDocument>
 #include <QJsonObject>
-
+#include "usermgr.h"
 TcpMgr::TcpMgr(QObject *parent)
     : QObject{parent},_host(""),_port(0),_b_recv_pending(false),_message_id(0),_message_len(0)
 {
@@ -57,6 +57,51 @@ TcpMgr::TcpMgr(QObject *parent)
     });
 
     connect(this, &TcpMgr::sig_send_data, this, &TcpMgr::slot_send_data);
+
+    initHandlers();
+
+}
+
+void TcpMgr::initHandlers()
+{
+    _handlers.insert(Global::ID_CHAT_LOGIN_RSP,
+                     [this](Global::ReqId id, int len, QByteArray data){
+        qDebug()<< "handle id is "<< id << " data is " << data;
+        // 将QByteArray转换为QJsonDocument
+        QJsonDocument jsonDoc = QJsonDocument::fromJson(data);
+        // 检查转换是否成功
+        if(jsonDoc.isNull()){
+            qDebug() << "Failed to create QJsonDocument.";
+            return;
+        }
+        QJsonObject jsonObj = jsonDoc.object();
+        if(!jsonObj.contains("error")){
+            int err = Global::ErrorCodes::ERR_JSON;
+            qDebug() << "Login Failed, err is Json Parse Err" << err ;
+            emit sig_login_failed(err);
+            return;
+        }
+        int err = jsonObj["error"].toInt();
+        if(err != Global::ErrorCodes::SUCCESS){
+            qDebug() << "Login Failed, err is " << err ;
+            emit sig_login_failed(err);
+            return;
+        }
+        UserMgr::GetInstance()->SetUid(jsonObj["uid"].toInt());
+        UserMgr::GetInstance()->SetName(jsonObj["name"].toString());
+        UserMgr::GetInstance()->SetToken(jsonObj["token"].toString());
+        emit sig_swich_chatdlg();
+    });
+}
+
+void TcpMgr::handleMsg(Global::ReqId id, int len, QByteArray data)
+{
+    auto find_iter =  _handlers.find(id);
+    if(find_iter == _handlers.end()){
+        qDebug()<< "not found id ["<< id << "] to handle";
+        return ;
+    }
+    find_iter.value()(id,len,data);
 }
 
 void TcpMgr::slot_tcp_connect(Global::ServerInfo si)
@@ -71,15 +116,16 @@ void TcpMgr::slot_tcp_connect(Global::ServerInfo si)
 
 void TcpMgr::slot_tcp_connect(const QString &si)
 {
-    qDebug() << "cpp-------" << si ;
     QJsonDocument jsonDoc = QJsonDocument::fromJson(si.toUtf8());
     if(jsonDoc.isNull()){
         qDebug() << "Failed to create QJsonDocument.";
         return;
     }
     QJsonObject jsonObj = jsonDoc.object();
-    QString host = jsonObj["host"].toString();
-    QString port = jsonObj["host"].toString();
+    // QString host = jsonObj["host"].toString();
+    // QString port = jsonObj["host"].toString();
+    QString host = "192.168.56.101";
+    QString port = "8090";
     QString token = jsonObj["token"].toString();
     int uid = jsonObj["uid"].toInt();
     Global::ServerInfo s(host, port, token, uid);
@@ -87,7 +133,7 @@ void TcpMgr::slot_tcp_connect(const QString &si)
 }
 void TcpMgr::slot_send_data(Global::ReqId reqId, QString data)
 {
-    qDebug() << "data is " << data;
+    qDebug() << "data is -----" << data;
     uint16_t id = reqId;
     // 将字符串转换为UTF-8编码的字节数组
     QByteArray dataBytes = data.toUtf8();

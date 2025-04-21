@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 269,
+                        "durationMicroseconds": 185,
                         "errorMessage": "Cannot generate efficient code for Construct",
                         "functionName": "_handlers",
                         "line": 20
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 5,
-                        "durationMicroseconds": 156,
+                        "durationMicroseconds": 137,
                         "errorMessage": "Cannot access value for name Global",
                         "functionName": "initHttpHandlers",
                         "line": 222
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 28,
                         "errorMessage": "Cannot access value for name HttpMgr",
                         "functionName": "target",
                         "line": 23
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 41
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
                         "functionName": "echoMode",
                         "line": 62
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 61,
+                        "durationMicroseconds": 60,
                         "errorMessage": "",
                         "functionName": "echoMode",
                         "line": 69
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 139,
+                        "durationMicroseconds": 136,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 74
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 77
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 87
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 91
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 229,
+                        "durationMicroseconds": 237,
                         "errorMessage": "",
                         "functionName": "visible",
                         "line": 92
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 321,
+                        "durationMicroseconds": 310,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 97
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 286,
+                        "durationMicroseconds": 521,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 105
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 266,
                         "errorMessage": "",
                         "functionName": "enabled",
                         "line": 107
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 206,
                         "errorMessage": "Instruction \"generate_CallValue\" not implemented",
                         "functionName": "onClicked",
                         "line": 138
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 509,
+                        "durationMicroseconds": 599,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 112
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 366,
+                        "durationMicroseconds": 400,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 111
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 118
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 42,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 120
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 121
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 322,
+                        "durationMicroseconds": 588,
                         "errorMessage": "",
                         "functionName": "onTriggered",
                         "line": 130
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 134,
+                        "durationMicroseconds": 147,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 165
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 371,
+                        "durationMicroseconds": 364,
                         "errorMessage": "Cannot access value for name HttpMgr",
                         "functionName": "onClicked",
                         "line": 182
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 123,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 167
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 312,
+                        "durationMicroseconds": 314,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 173
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 176
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 178
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 53,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 179
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 286,
+                        "durationMicroseconds": 306,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 205
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 97,
+                        "durationMicroseconds": 108,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 207
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 213
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 118,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 214
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 47,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 211
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 54,
                         "errorMessage": "",
                         "functionName": "onCompleted",
                         "line": 219
