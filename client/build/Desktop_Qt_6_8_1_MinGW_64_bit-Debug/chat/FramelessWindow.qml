@@ -162,8 +162,8 @@ FramelessWindow {
                     }
 
                     onClicked: {
-                        console.log("quit")
-                        Qt.quit()
+                        console.log("close")
+                        framelesswindow.close()
                     }
                     onEntered: {
                         parent.isHoverd = true

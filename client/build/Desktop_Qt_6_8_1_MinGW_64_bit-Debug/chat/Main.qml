@@ -4,6 +4,19 @@ import QtQuick.Controls
 FramelessWindow {
     id: window
     visible: true
+    onWidthChanged: {
+        var sourcePath = loader.source.toString()
+        if(sourcePath.includes("MainWindow.qml")) {
+            loader.item.width = width
+        }
+    }
+
+    onHeightChanged: {
+        var sourcePath = loader.source.toString()
+        if(sourcePath.includes("MainWindow.qml")) {
+            loader.item.height = height
+        }
+    }
     Loader {
         id:loader
         y:30
@@ -38,15 +51,18 @@ FramelessWindow {
                 window.maxBntShow = false
                 window.width = loader.item.width
                 window.height = loader.item.height + 30
+                console.log("sourcePath is ", sourcePath)
             } else if(sourcePath.includes("MainWindow.qml")) {
                 window.is_resize = true
                 window.minBntShow = true
                 window.maxBntShow = true
                 window.minimumWidth = 670
-                window.minimumHeight = 500
+                window.minimumHeight = 520
                 loader.y = 0
                 // loader.item.width = window.width
                 // loader.item.height = window.height
+                console.log("sourcePath is ", sourcePath)
+
             }
         }
     }

@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 318,
+                        "durationMicroseconds": 2036,
                         "errorMessage": "Cannot generate efficient code for Construct",
                         "functionName": "_handlers",
                         "line": 26
@@ -14,47 +14,47 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 579,
+                        "durationMicroseconds": 423,
                         "errorMessage": "Cannot access value for name TcpMgr",
                         "functionName": "onSig_connect_tcp",
-                        "line": 65
+                        "line": 66
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 106,
                         "errorMessage": "",
                         "functionName": "onSig_connect_tcp",
-                        "line": 65
+                        "line": 66
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 174,
+                        "durationMicroseconds": 531,
                         "errorMessage": "",
                         "functionName": "onSlot_login_failed",
-                        "line": 71
+                        "line": 72
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "onSlot_login_failed",
-                        "line": 71
+                        "line": 72
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 5,
-                        "durationMicroseconds": 362,
+                        "durationMicroseconds": 247,
                         "errorMessage": "Cannot access value for name Global",
                         "functionName": "initHttpHandlers",
-                        "line": 202
+                        "line": 204
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 68,
                         "errorMessage": "Cannot access value for name HttpMgr",
                         "functionName": "target",
                         "line": 30
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 62,
                         "errorMessage": "Cannot access value for name TcpMgr",
                         "functionName": "target",
                         "line": 45
@@ -89,247 +89,247 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Functions without type annotations won't be compiled",
                         "functionName": "onSig_login_failed",
-                        "line": 60
+                        "line": 61
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 118,
+                        "durationMicroseconds": 133,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 76
+                        "line": 77
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 102,
                         "errorMessage": "",
                         "functionName": "height",
-                        "line": 83
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 21,
-                        "durationMicroseconds": 41,
-                        "errorMessage": "",
-                        "functionName": "radius",
                         "line": 84
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 38,
-                        "durationMicroseconds": 116,
+                        "column": 21,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
-                        "functionName": "horizontalCenter",
+                        "functionName": "radius",
                         "line": 85
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 38,
+                        "durationMicroseconds": 190,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 86
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 93,
+                        "durationMicroseconds": 134,
                         "errorMessage": "",
                         "functionName": "echoMode",
-                        "line": 98
+                        "line": 99
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 165,
+                        "durationMicroseconds": 231,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 104
+                        "line": 105
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 338,
+                        "durationMicroseconds": 524,
                         "errorMessage": "Cannot access value for name HttpMgr",
                         "functionName": "onClicked",
-                        "line": 137
+                        "line": 138
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 150,
+                        "durationMicroseconds": 191,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 106
+                        "line": 107
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 320,
+                        "durationMicroseconds": 520,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 115
+                        "line": 116
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 168,
+                        "durationMicroseconds": 133,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 123
+                        "line": 124
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 58,
+                        "durationMicroseconds": 53,
                         "errorMessage": "Type  stored as QQuickButton does not have a property pressed for calling",
                         "functionName": "onPressed",
-                        "line": 124
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 33,
-                        "durationMicroseconds": 240,
-                        "errorMessage": "",
-                        "functionName": "onReleased",
                         "line": 125
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 177,
+                        "errorMessage": "",
+                        "functionName": "onReleased",
+                        "line": 126
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 122
+                        "line": 123
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 108,
                         "errorMessage": "Cannot load property text from (component in D:/code/github/chat/client/LoginPage.qml)::parent with type QQuickItem.",
                         "functionName": "text",
-                        "line": 130
+                        "line": 131
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 128,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
-                        "line": 132
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 36,
-                        "durationMicroseconds": 52,
-                        "errorMessage": "",
-                        "functionName": "verticalAlignment",
                         "line": 133
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 132,
+                        "column": 36,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
-                        "functionName": "width",
-                        "line": 149
+                        "functionName": "verticalAlignment",
+                        "line": 134
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 39,
-                        "durationMicroseconds": 99,
+                        "column": 20,
+                        "durationMicroseconds": 213,
                         "errorMessage": "",
-                        "functionName": "horizontalCenter",
+                        "functionName": "width",
                         "line": 151
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 433,
+                        "column": 39,
+                        "durationMicroseconds": 161,
                         "errorMessage": "",
-                        "functionName": "color",
-                        "line": 157
+                        "functionName": "horizontalCenter",
+                        "line": 153
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 41,
-                        "durationMicroseconds": 101,
+                        "column": 24,
+                        "durationMicroseconds": 525,
                         "errorMessage": "",
-                        "functionName": "verticalCenter",
+                        "functionName": "color",
                         "line": 159
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 41,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 161
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 132,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 165
+                        "line": 167
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 179,
+                        "durationMicroseconds": 306,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 166
+                        "line": 168
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 163
+                        "line": 165
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 224,
                         "errorMessage": "Cannot load property spacing from (component in D:/code/github/chat/client/LoginPage.qml)::parent with type QQuickItem.",
                         "functionName": "width",
-                        "line": 174
+                        "line": 176
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 301,
+                        "durationMicroseconds": 521,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 181
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 41,
-                        "durationMicroseconds": 94,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
                         "line": 183
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 41,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 185
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 141,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 189
+                        "line": 191
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 177,
+                        "durationMicroseconds": 307,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 190
+                        "line": 192
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 187
+                        "line": 189
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "onCompleted",
-                        "line": 199
+                        "line": 201
                     }
                 ],
                 "filepath": "D:/code/github/chat/client/LoginPage.qml"

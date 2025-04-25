@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 300,
+                        "durationMicroseconds": 388,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 11
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 78,
                         "errorMessage": "Cannot access value for name maskRect",
                         "functionName": "maskSource",
                         "line": 18

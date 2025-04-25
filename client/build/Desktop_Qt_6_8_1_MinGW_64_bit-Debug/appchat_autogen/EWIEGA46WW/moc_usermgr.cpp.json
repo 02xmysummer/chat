@@ -1,0 +1,26 @@
+{
+    "classes": [
+        {
+            "className": "UserMgr",
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "UserMgr",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "Singleton<UserMgr>"
+                },
+                {
+                    "access": "public",
+                    "name": "std::enable_shared_from_this<UserMgr>"
+                }
+            ]
+        }
+    ],
+    "inputFile": "usermgr.h",
+    "outputRevision": 68
+}

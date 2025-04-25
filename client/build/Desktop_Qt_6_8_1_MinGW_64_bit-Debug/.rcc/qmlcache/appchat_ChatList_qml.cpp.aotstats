@@ -1,0 +1,132 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 298,
+                        "errorMessage": "",
+                        "functionName": "boundsBehavior",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 467,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 33,
+                        "durationMicroseconds": 812,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "lastmessages",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 26,
+                        "durationMicroseconds": 1242,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "names",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 495,
+                        "errorMessage": "",
+                        "functionName": "onContentYChanged",
+                        "line": 70
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 256,
+                        "errorMessage": "",
+                        "functionName": "onHeightChanged",
+                        "line": 75
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "Cannot load property length from (component in D:/code/github/chat/client/ChatList.qml)::names with type QVariant.",
+                        "functionName": "loadInitialData",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 552,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "loadMoreData",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "Cannot load property length from (component in D:/code/github/chat/client/ChatList.qml)::names with type QVariant.",
+                        "functionName": "appendRandomData",
+                        "line": 105
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "",
+                        "functionName": "policy",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "Cannot access value for name chatList",
+                        "functionName": "width",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "isActive",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot access value for name activeIndex",
+                        "functionName": "onClicked",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 600,
+                        "errorMessage": "Cannot access value for name p_object",
+                        "functionName": "onCompleted",
+                        "line": 66
+                    }
+                ],
+                "filepath": "D:/code/github/chat/client/ChatList.qml"
+            }
+        ],
+        "moduleId": "chat(appchat)"
+    }
+]

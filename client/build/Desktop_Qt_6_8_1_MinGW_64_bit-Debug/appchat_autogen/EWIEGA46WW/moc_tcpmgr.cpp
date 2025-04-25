@@ -47,6 +47,7 @@ static constexpr auto qt_meta_stringdata_ZN6TcpMgrE = QtMocHelpers::stringData(
     "data",
     "sig_swich_chatdlg",
     "sig_login_failed",
+    "sig_user_search",
     "slot_tcp_connect",
     "Global::ServerInfo",
     "slot_send_data"
@@ -61,33 +62,35 @@ Q_CONSTINIT static const uint qt_meta_data_ZN6TcpMgrE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       4,       // signalCount
+       5,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   56,    2, 0x06,    1 /* Public */,
-       4,    2,   59,    2, 0x06,    3 /* Public */,
-       8,    0,   64,    2, 0x06,    6 /* Public */,
-       9,    1,   65,    2, 0x06,    7 /* Public */,
+       1,    1,   62,    2, 0x06,    1 /* Public */,
+       4,    2,   65,    2, 0x06,    3 /* Public */,
+       8,    0,   70,    2, 0x06,    6 /* Public */,
+       9,    1,   71,    2, 0x06,    7 /* Public */,
+      10,    1,   74,    2, 0x06,    9 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      10,    1,   68,    2, 0x0a,    9 /* Public */,
-      10,    1,   71,    2, 0x0a,   11 /* Public */,
-      12,    2,   74,    2, 0x0a,   13 /* Public */,
+      11,    1,   77,    2, 0x0a,   11 /* Public */,
+      11,    1,   80,    2, 0x0a,   13 /* Public */,
+      13,    2,   83,    2, 0x0a,   15 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Bool,    3,
     QMetaType::Void, 0x80000000 | 5, QMetaType::QString,    6,    7,
     QMetaType::Void,
     QMetaType::Void, QMetaType::Int,    2,
+    QMetaType::Void, QMetaType::QString,    2,
 
  // slots: parameters
     QMetaType::Void, QMetaType::QString,    2,
-    QMetaType::Void, 0x80000000 | 11,    2,
+    QMetaType::Void, 0x80000000 | 12,    2,
     QMetaType::Void, 0x80000000 | 5, QMetaType::QString,    6,    7,
 
        0        // eod
@@ -114,6 +117,9 @@ Q_CONSTINIT const QMetaObject TcpMgr::staticMetaObject = { {
         // method 'sig_login_failed'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'sig_user_search'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
         // method 'slot_tcp_connect'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
@@ -137,9 +143,10 @@ void TcpMgr::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         case 1: _t->sig_send_data((*reinterpret_cast< std::add_pointer_t<Global::ReqId>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
         case 2: _t->sig_swich_chatdlg(); break;
         case 3: _t->sig_login_failed((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 4: _t->slot_tcp_connect((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
-        case 5: _t->slot_tcp_connect((*reinterpret_cast< std::add_pointer_t<Global::ServerInfo>>(_a[1]))); break;
-        case 6: _t->slot_send_data((*reinterpret_cast< std::add_pointer_t<Global::ReqId>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
+        case 4: _t->sig_user_search((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 5: _t->slot_tcp_connect((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 6: _t->slot_tcp_connect((*reinterpret_cast< std::add_pointer_t<Global::ServerInfo>>(_a[1]))); break;
+        case 7: _t->slot_send_data((*reinterpret_cast< std::add_pointer_t<Global::ReqId>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
         default: ;
         }
     }
@@ -173,6 +180,13 @@ void TcpMgr::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
                 return;
             }
         }
+        {
+            using _q_method_type = void (TcpMgr::*)(QString );
+            if (_q_method_type _q_method = &TcpMgr::sig_user_search; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 4;
+                return;
+            }
+        }
     }
 }
 
@@ -199,14 +213,14 @@ int TcpMgr::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 8;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 8)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 7;
+        _id -= 8;
     }
     return _id;
 }
@@ -236,5 +250,12 @@ void TcpMgr::sig_login_failed(int _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void TcpMgr::sig_user_search(QString _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
 }
 QT_WARNING_POP

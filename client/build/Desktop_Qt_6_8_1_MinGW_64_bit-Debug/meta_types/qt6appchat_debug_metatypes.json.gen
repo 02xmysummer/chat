@@ -311,7 +311,7 @@
         "classes": [
             {
                 "className": "TcpMgr",
-                "lineNumber": 6,
+                "lineNumber": 7,
                 "object": true,
                 "qualifiedClassName": "TcpMgr",
                 "signals": [
@@ -359,6 +359,17 @@
                         "index": 3,
                         "name": "sig_login_failed",
                         "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "sig_user_search",
+                        "returnType": "void"
                     }
                 ],
                 "slots": [
@@ -369,7 +380,7 @@
                                 "type": "QString"
                             }
                         ],
-                        "index": 4,
+                        "index": 5,
                         "name": "slot_tcp_connect",
                         "returnType": "void"
                     },
@@ -380,7 +391,7 @@
                                 "type": "Global::ServerInfo"
                             }
                         ],
-                        "index": 5,
+                        "index": 6,
                         "name": "slot_tcp_connect",
                         "returnType": "void"
                     },
@@ -396,7 +407,7 @@
                                 "type": "QString"
                             }
                         ],
-                        "index": 6,
+                        "index": 7,
                         "name": "slot_send_data",
                         "returnType": "void"
                     }

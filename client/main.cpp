@@ -5,6 +5,7 @@
 #include "httpmgr.h"
 #include "global.h"
 #include "tcpmgr.h"
+
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);

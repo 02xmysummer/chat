@@ -1,0 +1,68 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 495,
+                        "errorMessage": "",
+                        "functionName": "onThisQmlChanged",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 139,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 421,
+                        "errorMessage": "",
+                        "functionName": "onSearchTextChanged",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "Cannot access value for name thisQml",
+                        "functionName": "visible",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 165,
+                        "errorMessage": "",
+                        "functionName": "onVisibleChanged",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "Cannot access value for name thisQml",
+                        "functionName": "visible",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "Cannot access value for name thisQml",
+                        "functionName": "visible",
+                        "line": 49
+                    }
+                ],
+                "filepath": "D:/code/github/chat/client/CenterControlArea.qml"
+            }
+        ],
+        "moduleId": "chat(appchat)"
+    }
+]

@@ -8,6 +8,25 @@
     <file alias="XTextInput.qml">D:/code/github/chat/client/XTextInput.qml</file>
     <file alias="ForgetPasswordPage.qml">D:/code/github/chat/client/ForgetPasswordPage.qml</file>
     <file alias="MainWindow.qml">D:/code/github/chat/client/MainWindow.qml</file>
+    <file alias="LeftNavBar.qml">D:/code/github/chat/client/LeftNavBar.qml</file>
+    <file alias="CenterControlArea.qml">D:/code/github/chat/client/CenterControlArea.qml</file>
+    <file alias="ChatList.qml">D:/code/github/chat/client/ChatList.qml</file>
+    <file alias="SearchArea.qml">D:/code/github/chat/client/SearchArea.qml</file>
+    <file alias="ChatItem.qml">D:/code/github/chat/client/ChatItem.qml</file>
+    <file alias="ChatArea.qml">D:/code/github/chat/client/ChatArea.qml</file>
+    <file alias="RightManagedZone.qml">D:/code/github/chat/client/RightManagedZone.qml</file>
+    <file alias="ChatTools.qml">D:/code/github/chat/client/ChatTools.qml</file>
+    <file alias="HoverImage.qml">D:/code/github/chat/client/HoverImage.qml</file>
+    <file alias="ChatInput.qml">D:/code/github/chat/client/ChatInput.qml</file>
+    <file alias="ChatContent.qml">D:/code/github/chat/client/ChatContent.qml</file>
+    <file alias="BubbleChatBox.qml">D:/code/github/chat/client/BubbleChatBox.qml</file>
+    <file alias="SendFileDialog.qml">D:/code/github/chat/client/SendFileDialog.qml</file>
+    <file alias="ApplyFriendPage.qml">D:/code/github/chat/client/ApplyFriendPage.qml</file>
+    <file alias="UserList.qml">D:/code/github/chat/client/UserList.qml</file>
+    <file alias="UserItem.qml">D:/code/github/chat/client/UserItem.qml</file>
+    <file alias="FriendAuthList.qml">D:/code/github/chat/client/FriendAuthList.qml</file>
+    <file alias="FriendAuthItem.qml">D:/code/github/chat/client/FriendAuthItem.qml</file>
+    <file alias="SearchList.qml">D:/code/github/chat/client/SearchList.qml</file>
     <file alias="rc.qrc">D:/code/github/chat/client/rc.qrc</file>
   </qresource>
 </RCC>

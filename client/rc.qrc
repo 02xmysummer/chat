@@ -4,5 +4,37 @@
         <file>src/active-pinTop.png</file>
         <file>src/logo.png</file>
         <file>src/avatar.jpg</file>
+        <file>src/chat.png</file>
+        <file>src/chat_active.png</file>
+        <file>src/contacts.png</file>
+        <file>src/contacts_active.png</file>
+        <file>src/search.png</file>
+        <file>states/1.jpg</file>
+        <file>states/2.jpg</file>
+        <file>states/3.jpg</file>
+        <file>states/4.jpg</file>
+        <file>states/5.jpg</file>
+        <file>states/6.jpg</file>
+        <file>states/7.jpg</file>
+        <file>states/8.jpg</file>
+        <file>states/9.jpg</file>
+        <file>states/10.jpg</file>
+        <file>states/11.jpg</file>
+        <file>states/12.jpg</file>
+        <file>states/13.jpg</file>
+        <file>states/14.jpg</file>
+        <file>states/15.jpg</file>
+        <file>states/16.jpg</file>
+        <file>states/17.jpg</file>
+        <file>states/18.jpg</file>
+        <file>states/19.jpg</file>
+        <file>states/20.jpg</file>
+        <file>src/emoji.png</file>
+        <file>src/folder_black.png</file>
+        <file>src/adduser.png</file>
+        <file>src/delete.png</file>
+        <file>src/add_friend.png</file>
+        <file>src/add_friend_normal.png</file>
+        <file>src/right_tip.png</file>
     </qresource>
 </RCC>

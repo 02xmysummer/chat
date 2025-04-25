@@ -420,6 +420,7 @@ D:/code/github/chat/client/framelesswindow.h
  mdp:D:/software/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h
  mdp:D:/software/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/software/qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+D:/code/github/chat/client/userdata.h
 D:/code/github/chat/client/global.h
  mmc:Q_OBJECT
  mdp:D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_autogen/moc_predefs.h
@@ -734,7 +735,11 @@ D:/code/github/chat/client/tcpmgr.h
  mdp:D:/code/github/chat/client/global.h
  mdp:D:/code/github/chat/client/singleton.h
  mdp:D:/code/github/chat/client/tcpmgr.h
+ mdp:D:/code/github/chat/client/userdata.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/QJsonArray
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/QJsonObject
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/QObject
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/QString
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/q20functional.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/q20memory.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/q20type_traits.h
@@ -753,6 +758,9 @@ D:/code/github/chat/client/tcpmgr.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qbytearrayalgorithms.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qbytearraylist.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qbytearrayview.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qcalendar.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qcborcommon.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qcborvalue.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qchar.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qcompare.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qcompare_impl.h
@@ -766,7 +774,9 @@ D:/code/github/chat/client/tcpmgr.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qcontiguouscache.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qdarwinhelpers.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qdatastream.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qdatetime.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qdebug.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qendian.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qexceptionhandling.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qflags.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qfloat16.h
@@ -782,8 +792,12 @@ D:/code/github/chat/client/tcpmgr.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qiodevicebase.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qiterable.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qiterator.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qjsonarray.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qjsonobject.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qjsonvalue.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qlatin1stringview.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qlist.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qlocale.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qlogging.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qmalloc.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qmap.h
@@ -801,6 +815,7 @@ D:/code/github/chat/client/tcpmgr.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qpair.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qprocessordetection.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qrefcount.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qscopedpointer.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qscopeguard.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qset.h
@@ -842,7 +857,9 @@ D:/code/github/chat/client/tcpmgr.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qtversionchecks.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qtypeinfo.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qtypes.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qurl.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qutf8stringview.h
+ mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/quuid.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qvariant.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qvarlengtharray.h
  mdp:D:/software/qt/6.8.1/mingw_64/include/QtCore/qversiontagging.h
@@ -1794,4 +1811,5 @@ D:/code/github/chat/client/usermgr.h
 D:/code/github/chat/client/framelesswindow.cpp
 D:/code/github/chat/client/main.cpp
 D:/code/github/chat/client/tcpmgr.cpp
+D:/code/github/chat/client/userdata.cpp
 D:/code/github/chat/client/usermgr.cpp

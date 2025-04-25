@@ -5,51 +5,67 @@
                 "entries": [
                     {
                         "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onWidthChanged.",
+                        "functionName": "onWidthChanged",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onHeightChanged.",
+                        "functionName": "onHeightChanged",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": false,
                         "column": 19,
-                        "durationMicroseconds": 398,
+                        "durationMicroseconds": 795,
                         "errorMessage": "Cannot retrieve a non-object type by ID: window",
                         "functionName": "onLoaded",
-                        "line": 31
+                        "line": 44
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 301,
+                        "durationMicroseconds": 309,
                         "errorMessage": "",
                         "functionName": "target",
-                        "line": 12
+                        "line": 25
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 248,
+                        "durationMicroseconds": 247,
                         "errorMessage": "",
                         "functionName": "onSwitchRegister",
-                        "line": 14
+                        "line": 27
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 182,
+                        "durationMicroseconds": 189,
                         "errorMessage": "",
                         "functionName": "onSwitchLogin",
-                        "line": 18
+                        "line": 31
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 165,
+                        "durationMicroseconds": 178,
                         "errorMessage": "",
                         "functionName": "onSwitchForgetPassword",
-                        "line": 21
+                        "line": 34
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 167,
+                        "durationMicroseconds": 169,
                         "errorMessage": "",
                         "functionName": "onLogin",
-                        "line": 25
+                        "line": 38
                     }
                 ],
                 "filepath": "D:/code/github/chat/client/Main.qml"

@@ -9,4 +9,23 @@ RegisterPage 1.0 RegisterPage.qml
 XTextInput 1.0 XTextInput.qml
 ForgetPasswordPage 1.0 ForgetPasswordPage.qml
 MainWindow 1.0 MainWindow.qml
+LeftNavBar 1.0 LeftNavBar.qml
+CenterControlArea 1.0 CenterControlArea.qml
+ChatList 1.0 ChatList.qml
+SearchArea 1.0 SearchArea.qml
+ChatItem 1.0 ChatItem.qml
+ChatArea 1.0 ChatArea.qml
+RightManagedZone 1.0 RightManagedZone.qml
+ChatTools 1.0 ChatTools.qml
+HoverImage 1.0 HoverImage.qml
+ChatInput 1.0 ChatInput.qml
+ChatContent 1.0 ChatContent.qml
+BubbleChatBox 1.0 BubbleChatBox.qml
+SendFileDialog 1.0 SendFileDialog.qml
+ApplyFriendPage 1.0 ApplyFriendPage.qml
+UserList 1.0 UserList.qml
+UserItem 1.0 UserItem.qml
+FriendAuthList 1.0 FriendAuthList.qml
+FriendAuthItem 1.0 FriendAuthItem.qml
+SearchList 1.0 SearchList.qml
 

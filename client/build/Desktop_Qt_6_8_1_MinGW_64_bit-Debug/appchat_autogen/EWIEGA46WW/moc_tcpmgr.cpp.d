@@ -2,7 +2,11 @@ D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_aut
   D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_autogen/moc_predefs.h \
   D:/code/github/chat/client/global.h \
   D:/code/github/chat/client/singleton.h \
+  D:/code/github/chat/client/userdata.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/QJsonArray \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/QJsonObject \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/QObject \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/QString \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/q20functional.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/q20memory.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/q20type_traits.h \
@@ -21,6 +25,9 @@ D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_aut
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qbytearraylist.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qbytearrayview.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qcborcommon.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qcborvalue.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qchar.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qcompare.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qcompare_impl.h \
@@ -34,7 +41,9 @@ D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_aut
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qcontiguouscache.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qdatastream.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qendian.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qflags.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qfloat16.h \
@@ -50,8 +59,12 @@ D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_aut
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qiodevicebase.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qiterable.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qiterator.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qjsonarray.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qjsonobject.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qjsonvalue.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qlatin1stringview.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qlist.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qlogging.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qmalloc.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qmap.h \
@@ -69,6 +82,7 @@ D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_aut
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qpair.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qprocessordetection.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qrefcount.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qscopedpointer.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qscopeguard.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qset.h \
@@ -110,7 +124,9 @@ D:/code/github/chat/client/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/appchat_aut
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qtversionchecks.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qtypeinfo.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qtypes.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/qurl.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qutf8stringview.h \
+  D:/software/qt/6.8.1/mingw_64/include/QtCore/quuid.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qvariant.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/software/qt/6.8.1/mingw_64/include/QtCore/qversiontagging.h \

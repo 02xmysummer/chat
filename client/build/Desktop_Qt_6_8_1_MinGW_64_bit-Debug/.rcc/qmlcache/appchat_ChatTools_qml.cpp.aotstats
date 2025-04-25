@@ -1,0 +1,44 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 644,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 231,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 243,
+                        "errorMessage": "",
+                        "functionName": "nameFilters",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 133,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sendFileDialog",
+                        "functionName": "onAccepted",
+                        "line": 49
+                    }
+                ],
+                "filepath": "D:/code/github/chat/client/ChatTools.qml"
+            }
+        ],
+        "moduleId": "chat(appchat)"
+    }
+]

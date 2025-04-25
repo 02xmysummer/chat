@@ -47,24 +47,25 @@ Rectangle {
             if(ok) {
                 console.log("聊天服务连接成功，正在登录...")
                 const jsonObj = {
-                    "uid": _uid,
+                    "uid": Number(_uid),
                     "token": _token
                 }
-                const jsonStr = String(jsonObj)
+                const jsonStr = JSON.stringify(jsonObj)
                 TcpMgr.sig_send_data(Global.ID_CHAT_LOGIN, jsonStr)
+                login()
             } else {
                 console.log("网络异常")
             }
         }
 
         function onSig_login_failed(err) {
-            slot_login_failed(err);
+            slot_login_failed(err)
         }
     }
 
     onSig_connect_tcp: (obj)=>{
         const s = JSON.stringify(obj)
-        console.log(s)
+        console.log("----------",s)
         TcpMgr.slot_tcp_connect(s)
     }
 
@@ -135,6 +136,7 @@ Rectangle {
             }
 
             onClicked: {
+                // login()
                 const json_obj = {
                     "email": emailInput.text,
                     "passwd": passwordInput.text
